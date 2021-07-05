@@ -1,0 +1,25 @@
+Order deny,allow
+Deny from all
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Credentials "true"
+    Header set Access-Control-Allow-Headers "*"
+</IfModule>
+
+<Files "auth.php">
+    Allow from all
+</Files>
+
+<Files "user/index.php">
+    Allow from all
+</Files>
+
+<Files "files/index.php">
+    Allow from all
+</Files>
+
+<FilesMatch "\.(jpe?g|png|gif|webp)$">
+   Allow From All
+</FilesMatch>
