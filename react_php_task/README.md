@@ -1,6 +1,6 @@
 # INSTALLATION
 
-## PHP backed
+## PHP backend
 Simpli copy https://github.com/wildroo/medium/tree/main/react_php_task/phpbackend folder's content to your hosted folder. httpaccess file is included and confifured already.
 
 ## Database
