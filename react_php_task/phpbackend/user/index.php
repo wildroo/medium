@@ -42,5 +42,6 @@
 		echo json_encode($json);
 	}else{
 		$json = array("success" => false, "Info" => "Request method not accepted!");
+		echo json_encode($json);
 	}
 ?>
